@@ -1,4 +1,4 @@
-HELLO WORLD !!! Tes
+HELLO WORLD !!! Testing
 Welcome to Git (version 1.9.0-preview20140217)
 
 
