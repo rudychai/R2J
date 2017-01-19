@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place searches</title>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        margin: 0 auto;
+        height: 800px;
+          width: 800px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #div{
+        padding-left: 560px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+      
+      
+      
+    <script>
+
+
+        
+        var lengthDiv = 0;
+        var pyrmont = {lat: 3.61716, lng: 98.6786};
+        var markers = [];
+        var map;
+        var search;
+
+        
+
+        function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: pyrmont,
+          zoom: 11
+        });
+
+        
+            
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+              var pos = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+              };
+              
+              var marker = new google.maps.Marker({
+                icon:'https://maps.google.com/mapfiles/kml/shapes/parking_lot_maps.png',
+                map: map,
+                position: new google.maps.LatLng(pos.lat,pos.lng)
+              });
+              console.log(pos);
+              infowindow.setPosition(pos);
+              infowindow.setContent('Location found.');
+              //map.setCenter(pos);
+            }, function() {
+              handleLocationError(true, infowindow, map.getCenter());
+            });
+        } else {
+          // Browser doesn't support Geolocation
+            handleLocationError(false, infowindow, map.getCenter());
+        }
+        }
+
+        function callback(results, status) {
+        if (status === google.maps.places.PlacesServiceStatus.OK) {
+          for (var i = 0; i < results.length; i++) {
+            createMarker(results[i],i);
+            lengthDiv++;
+          }
+        }
+        }
+
+        function createMarker(place, index) {
+        var placeLoc = place.geometry.location;
+        var marker = new google.maps.Marker({
+          map: map,
+          position: place.geometry.location
+        });
+        markers.push(marker);
+            
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.setContent(place.name);
+          infowindow.open(map, this);
+        });
+            
+        var div = document.getElementById("div");
+        var p = document.createElement("p");
+        p.setAttribute("id","p");
+        var textNode = document.createTextNode(index+1+"."+place.name);
+        div.appendChild(p);
+        p.appendChild(textNode);
+        }
+        
+        function setMapOnAll(map) {
+            for (var i = 0; i < markers.length; i++) {
+              markers[i].setMap(map);
+            }
+        }
+        
+        function deleteMarkers() {
+            setMapOnAll(null);
+            markers = [];
+        }
+        
+        function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+            infoWindow.setPosition(pos);
+            infoWindow.setContent(browserHasGeolocation ?
+                                  'Error: The Geolocation service failed.' :
+                                  'Error: Your browser doesn\'t support geolocation.');
+        }
+        
+        function deleteDiv(){
+            for(i = 0;i<lengthDiv;i++){
+                var p = document.getElementById("p");
+                p.parentNode.removeChild(p);
+            }
+            lengthDiv = 0;
+        }
+        
+        
+        
+    
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhuZEEgnNAwqWytQ5rhdOjDB7ibCXjSJQ&libraries=places&callback=initMap" async defer></script>
+  </body>
+</html>
