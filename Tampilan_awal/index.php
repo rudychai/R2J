@@ -130,14 +130,9 @@
     <div class="site-header-menu">
       <nav class="site-header-nav site-header-nav-main">
         <a href="/personal" class="js-selected-navigation-item nav-item nav-item-personal" data-ga-click="Header, click, Nav menu - item:personal" data-selected-links="/personal /personal">
-          Personal
-</a>        <a href="/open-source" class="js-selected-navigation-item nav-item nav-item-opensource" data-ga-click="Header, click, Nav menu - item:opensource" data-selected-links="/open-source /open-source">
-          Open source
-</a>        <a href="/business" class="js-selected-navigation-item nav-item nav-item-business" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/partners /business/features /business/customers /business">
-          Business
-</a>        <a href="/explore" class="js-selected-navigation-item nav-item nav-item-explore" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
-          Explore
-</a>      </nav>
+          Travelion Tour
+</a>        
+		</nav>
 
       <div class="site-header-actions">
             <a class="btn btn-primary site-header-actions-btn" href="/join?source=header-home" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
@@ -145,10 +140,10 @@
       </div>
 
         <nav class="site-header-nav site-header-nav-secondary mr-md-3">
-          <a class="nav-item" href="/pricing">Pricing</a>
-          <a class="nav-item" href="/blog">Blog</a>
-          <a class="nav-item" href="https://help.github.com">Support</a>
-          <a class="nav-item header-search-link" href="https://github.com/search">Search GitHub</a>
+          <a class="nav-item" href="/pricing">How To Order</a>
+          <a class="nav-item" href="/blog">Promo</a>
+          <a class="nav-item" href="https://help.github.com">Check Booking</a>
+          <a class="nav-item header-search-link" href="https://github.com/search">Search Ticket</a>
               <div class="header-search   js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/search" class="js-site-search-form" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
@@ -157,7 +152,7 @@
         class="form-control header-search-input js-site-search-focus "
         data-hotkey="s"
         name="q"
-        placeholder="Search GitHub"
+        placeholder="Search Ticket"
         aria-label="Search GitHub"
         data-unscoped-placeholder="Search GitHub"
         data-scoped-placeholder="Search"
@@ -178,6 +173,11 @@
       <div id="js-flash-container">
 </div>
 
+<div class="featurette pb-0 pt-6 shade-gray border-top">
+  <div class="container-responsive">
+    <h2 class="alt-h2 mt-3 mb-2 text-center">Welcome to Travelion Tour, travellers</h2>
+    <p class="alt-lead text-center text-gray mb-6 pb-4 col-md-10 mx-auto">C'mon go to somewhere that you've never been before.</p>
+  </div>
 
     <div role="main">
         
@@ -185,8 +185,7 @@
   <div class="container-responsive position-relative">
     <div class="clearfix gut-lg">
       <div class="float-md-left col-md-7">
-        <h1 class="alt-h1 text-shadow-dark text-white lh-condensed mb-3">How&nbsp;people build&nbsp;software</h1>
-        <p class="alt-lead text-shadow-dark text-white">Millions of developers use GitHub to build personal projects, support their businesses, and&nbsp;work together on open source technologies.</p>
+        <h1 class="alt-h1 text-shadow-dark text-white lh-condensed mb-3">How&nbsp;people start&nbsp;Travelling all around world</h1>
       </div>
       <div class="float-md-left col-md-5">
           <div class="d-none-sm-dn">
@@ -207,12 +206,12 @@
                   <label class="form-label text-shadow-light sr-only" for="user[password]">Create a password</label>
                   <input type="password" name="user[password]" id="user[password]" class="form-control form-control-lg input-block" placeholder="Create a password" data-autocheck-url="/signup_check/password" data-autocheck-authenticity-token="ejTAi0ZHQTAn0Vh/c3uaiQ/agRogiuCV2yNrv78LvlWltmHp+wTd1pzPienZQPl4zRyGyOrA5KE5N6B384WROQ==">
                 </dd>
-                <p class="form-control-note">Use at least one letter, one numeral, and seven characters.</p>
+                <p class="form-control-note">Use at least one letter, one numeral, and eight characters.</p>
               </dl>
               <input type="hidden" name="source" class="js-signup-source" value="form-home">
-              <button class="btn btn-primary btn-large f3 btn-block" type="submit">Sign up for GitHub</button>
+              <button class="btn btn-primary btn-large f3 btn-block" type="submit">Sign up for Travel</button>
               <p class="form-control-note text-center">
-                By clicking "Sign up for GitHub", you agree to our
+                By clicking "Sign up for Travel", you agree to our
                 <a class="text-white" href="https://help.github.com/terms" target="_blank">terms of service</a> and
                 <a class="text-white" href="https://help.github.com/privacy" target="_blank">privacy policy</a>. <span class="js-email-notice">We'll occasionally send you account related emails.</span>
               </p>
@@ -225,94 +224,20 @@
   </div>
 </div>
 
-<div class="featurette pb-0 pt-6 shade-gray border-top">
-  <div class="container-responsive">
-    <h2 class="alt-h2 mt-3 mb-2 text-center">Welcome home, developers</h2>
-    <p class="alt-lead text-center text-gray mb-6 pb-4 col-md-10 mx-auto">GitHub fosters a fast, flexible, and collaborative development process that lets you work on your own or with others.</p>
-  </div>
-  <div class="border-top border-bottom">
-    <div class="container-tiles d-table">
-      <div class="tile float-md-left float-lg-none d-lg-table-cell col-md-6 col-lg-3 p-3 p-md-4 text-center v-align-top">
-        <img src="https://assets-cdn.github.com/images/modules/site/home-ill-build.png?sn" alt="" class="img-responsive featurette-illo-sm mb-4 mt-4">
-        <h4 class="alt-h4">For everything you build</h4>
-        <p class="alt-text-small text-gray">Host and manage your code on GitHub. You can keep your work private or share it with the world.</p>
-      </div>
-      <div class="tile float-md-left float-lg-none d-lg-table-cell col-md-6 col-lg-3 p-3 p-md-4 text-center v-align-top">
-        <img src="https://assets-cdn.github.com/images/modules/site/home-ill-work.png?sn" alt="" class="img-responsive featurette-illo-sm mb-4 mt-4">
-        <h4 class="alt-h4">A better way to work</h4>
-        <p class="alt-text-small text-gray">From hobbyists to professionals, GitHub helps developers simplify the way they build software.</p>
-      </div>
-      <div class="tile float-md-left float-lg-none d-lg-table-cell col-md-6 col-lg-3 p-3 p-md-4 text-center v-align-top">
-        <img src="https://assets-cdn.github.com/images/modules/site/home-ill-projects.png?sn" alt="" class="img-responsive featurette-illo-sm mb-4 mt-4">
-        <h4 class="alt-h4">Millions of projects</h4>
-        <p class="alt-text-small text-gray">GitHub is home to millions of open source projects. Try one out or get inspired to create your own.</p>
-      </div>
-      <div class="tile float-left float-lg-none d-lg-table-cell col-md-6 col-lg-3 p-3 p-md-4 text-center v-align-top">
-        <img src="https://assets-cdn.github.com/images/modules/site/home-ill-platform.png?sn" alt="" class="img-responsive featurette-illo-sm mb-4 mt-4">
-        <h4 class="alt-h4">One platform, from start to finish</h4>
-        <p class="alt-text-small text-gray">With hundreds of integrations, GitHub is flexible enough to be at the center of your development process.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="featurette pb-0">
-  <div class="container-responsive">
-    <h2 class="alt-h2">Who uses GitHub?</h2>
-    <hr class="triband-hr mt-5 mb-0">
-    <div class="clearfix gut-lg">
-      <div class="float-md-left col-md-4 my-4">
-        <h3 class="alt-h3 my-2"><a href="/personal" class="site-text-blue octicon-middle">Individuals <svg aria-hidden="true" class="octicon octicon-chevron-right" height="22" version="1.1" viewBox="0 0 8 16" width="11"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/></svg></a></h3>
-        <p class="text-gray">Use GitHub to create a personal project, whether you want to experiment with a new programming language or host your life’s work.</p>
-      </div>
-      <div class="float-md-left col-md-4 my-4">
-        <h3 class="alt-h3 my-2"><a href="/open-source" class="site-text-orange octicon-middle">Communities <svg aria-hidden="true" class="octicon octicon-chevron-right" height="22" version="1.1" viewBox="0 0 8 16" width="11"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/></svg></a></h3>
-        <p class="text-gray">GitHub hosts one of the largest collections of open source software. Create, manage, and work on some of today’s most influential technologies.</p>
-      </div>
-      <div class="float-md-left col-md-4 my-4">
-        <h3 class="alt-h3 my-2"><a href="/business" class="site-text-purple octicon-middle">Businesses <svg aria-hidden="true" class="octicon octicon-chevron-right" height="22" version="1.1" viewBox="0 0 8 16" width="11"><path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/></svg></a></h3>
-        <p class="text-gray">Businesses of all sizes use GitHub to support their development process and securely build software.</p>
-      </div>
-    </div>
-    <hr class="triband-hr mt-0">
-    <div class="clearfix d-md-table gut-lg direction-md-rtl mt-6">
-      <div class="d-md-table-cell v-align-middle direction-md-ltr col-md-4">
-        <p class="alt-text-small text-center text-md-left text-gray">
-          GitHub is proud to host projects and organizations like <a href="//github.com/nasa">NASA</a>.
-        </p>
-      </div>
-      <div class="d-md-table-cell v-align-middle col-md-8">
-        <img src="https://assets-cdn.github.com/images/modules/site/org_example_nasa.png?sn" class="img-responsive org-example-drop-shadow" alt="NASA is on GitHub">
-      </div>
-    </div>
-  </div>
-</div>
-<div class="featurette shade-gradient pb-4">
-  <div class="container-responsive">
-    <div class="pricing-card pricing-card-horizontal">
-      <div class="pricing-card-cta">
-        <a href="/join?source=button-home" class="btn btn-block btn-primary btn-large" rel="nofollow">Sign up for GitHub</a>
-      </div>
-      <div class="pricing-card-text alt-h3 mb-0 text-thin">
-        Public projects are always free. Work together across unlimited private repositories for $7 / month.
-      </div>
-    </div>
-  </div>
-</div>
+  
 
-  <div class="modal-backdrop js-touch-events"></div>
+
+
 
     </div>
 
         <div class="container site-footer-container">
   <div class="site-footer" role="contentinfo">
     <ul class="site-footer-links float-right">
-        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
-      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
-      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
-        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
-        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact Travelion Tour</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Promo</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About Travel</a></li>
 
     </ul>
 
@@ -320,7 +245,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2017 <span title="0.02486s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2017 <span title="0.02486s from github-fe138-cp1-prd.iad.github.net">Travelion</span></li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
