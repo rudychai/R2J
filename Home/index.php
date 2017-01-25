@@ -217,7 +217,7 @@
                 <p class="form-control-note">Use at least one letter, one numeral, and eight characters.</p>
               </dl>
               <input type="hidden" name="source" class="js-signup-source" value="form-home">
-              <p class="btn btn-primary btn-large f3 btn-block" type="submit" onclick="window.location.href='../Travelion_Tour/index.php'">Sign up for Travel</p>
+              <p class="btn btn-primary btn-large f3 btn-block" type="submit" onclick="window.location.href='../Login/index.php'">Sign up for Travel</p>
               <p class="form-control-note text-center">
                 By clicking "Sign up for Travel", you agree to our
                 <a class="text-white" href="https://help.github.com/terms" target="_blank">terms of service</a> and
