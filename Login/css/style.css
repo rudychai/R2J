@@ -35,8 +35,8 @@ body a:hover{
 	position:relative;
 }
 .banner1{
-	min-height: 500px;
-    background: url(../images/banner.jpg) no-repeat 0px 0px;
+	min-height: 250px;
+    background: url(../images/banner1.jpg) no-repeat 0px 0px;
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

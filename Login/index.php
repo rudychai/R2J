@@ -78,9 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a href="index.html"><span>T</span>ravelion Tour<i>Feeling Wonderful Tour With Us</i></a>
 					
 				</div>
-				<div class="" style="margin-left: 1050px; font-size: 30px; margin-top: 20px;">
-					<a href="login.html" style="color:white; text-decoration: none;">Login</a>
-				</div>
+
 					
 				<div class="clearfix"> </div>
 			</div>
@@ -112,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																			 <form>
 																				<h5>Departure City or Hotel</h5>
 																				<div class="section_room">
-																			  		<select id="country" onchange="change_country(this.value)" class="frm-field required" style="width:100px">
+																			  		<select id="country" onchange="change_country(this.value)" class="frm-field required" style="width:200px">
 																						<option value="AX">Medan</option>
 																						<option value="AX">Singapore</option>         
 																						<option value="AX">Malaysia</option>

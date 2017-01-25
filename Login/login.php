@@ -52,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="header-top">
 			<div class="container">
 				<div class="head-logo">
-					<a href="index.html"><span>X</span>treme Travel<i>Feeling Amazing Tour</i></a>
+					<a href="index.html"><span>T</span>ravelion Tour<i>Feeling Amazing Tour With Us</i></a>
 				</div>
 				<div class="top-nav">
 						
@@ -86,7 +86,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="check-right">
 								<form>
-									<input type="submit" value="Login">
+									<input type="submit" value="Sign In">
 								</form>
 							</div>
 							<div class="clearfix"> </div>
@@ -99,7 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="new-people">
 				<h4>For New People</h4>
 				<p>Having hands on experience in creating innovative designs,I do offer design solutions which harness</p>
-				<a href="sign-up.html">Register Here</a>
+				<a href="sign-up.php">Sign Up Here</a>
 			</div>
 		</div>
 	</div>
@@ -188,7 +188,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="footer-left">
 				<ul>
-					<li><a href="index.html"><i>X</i>treme Travel</a><span> |</span></li>
+					<li><a href="index.html"><i>T</i>ravelion Tour</a><span> |</span></li>
 					<li><p>The awesome agency. <span>0800 (123) 4567 // Australia 746 PO</span></p></li>
 				</ul>
 			</div>

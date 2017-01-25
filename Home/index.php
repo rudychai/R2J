@@ -108,7 +108,7 @@
   <style type="text/css">
   	.edge{
   		background-image: url(back.jpg);
-  		height: 420px;
+  		height: 500px;
   		padding-top: 30px;
   	}
   </style>    
@@ -143,8 +143,7 @@
 		</nav>
 
       <div class="site-header-actions">
-            <a class="btn btn-primary site-header-actions-btn" href="/join?source=header-home" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
-          <a class="btn site-header-actions-btn mr-1" href="/login" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+          <a class="btn site-header-actions-btn mr-1" href="../Login/login.php" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
       </div>
 
         <nav class="site-header-nav site-header-nav-secondary mr-md-3">
@@ -197,7 +196,15 @@
       </div>
       <div class="float-md-left col-md-5">
           <div class="d-none-sm-dn">
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/join" autocomplete="off" class="home-hero-signup js-signup-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vg4zerdyqVU01toGjofxLklbKTHCyvjXMXS2CHIpVs13k57iswkB2Io76mKTp9gXHOBrWp80PuNWbrhTmlOwjQ==" /></div>              <dl class="form">
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/join" autocomplete="off" class="home-hero-signup js-signup-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vg4zerdyqVU01toGjofxLklbKTHCyvjXMXS2CHIpVs13k57iswkB2Io76mKTp9gXHOBrWp80PuNWbrhTmlOwjQ==" /></div>              
+              <dl class="form">
+                <dd>
+                  <label class="form-label text-shadow-light sr-only" for="user[email]">First Name</label>
+                  <input type="text" name="firstname" id="firstname" class="form-control form-control-lg input-block js-email-notice-trigger" placeholder="Your Name" data-autocheck-url="/signup_check/email" data-autocheck-authenticity-token="WTG0vQrNzzz5K3z293OS9mNuK7uMB66usXfo9E7Bu2jfjpKGwhu2P7gvbxS84haytip0jzlPiZGnOAOjS+iULw==">
+                </dd>
+              </dl>
+
+              <dl class="form">
                 <dd>
                   <label class="form-label text-shadow-light sr-only" for="user[login]">Pick a username</label>
                   <input type="text" name="user[login]" id="user[login]" class="form-control form-control-lg input-block" placeholder="Pick a username" data-autocheck-url="/signup_check/username" data-autocheck-authenticity-token="Qrk1aOx+Fit+F1Kcf7bcXd5NXYrbVwER40Uc3PJGuGs1W7Dze7VwCqViQculGrtyNTfO27sPyawwyZp53R7+yQ==" autofocus>
@@ -209,12 +216,20 @@
                   <input type="text" name="user[email]" id="user[email]" class="form-control form-control-lg input-block js-email-notice-trigger" placeholder="Your email address" data-autocheck-url="/signup_check/email" data-autocheck-authenticity-token="WTG0vQrNzzz5K3z293OS9mNuK7uMB66usXfo9E7Bu2jfjpKGwhu2P7gvbxS84haytip0jzlPiZGnOAOjS+iULw==">
                 </dd>
               </dl>
+
               <dl class="form">
                 <dd>
                   <label class="form-label text-shadow-light sr-only" for="user[password]">Create a password</label>
                   <input type="password" name="user[password]" id="user[password]" class="form-control form-control-lg input-block" placeholder="Create a password" data-autocheck-url="/signup_check/password" data-autocheck-authenticity-token="ejTAi0ZHQTAn0Vh/c3uaiQ/agRogiuCV2yNrv78LvlWltmHp+wTd1pzPienZQPl4zRyGyOrA5KE5N6B384WROQ==">
                 </dd>
                 <p class="form-control-note">Use at least one letter, one numeral, and eight characters.</p>
+              </dl>
+
+              <dl class="form">
+                <dd>
+                  <label class="form-label text-shadow-light sr-only" for="user[email]">Confirm Password</label>
+                  <input type="password" name="user[con_password]" id="user[con_password]" class="form-control form-control-lg input-block js-email-notice-trigger" placeholder="Confirm Password" data-autocheck-url="#" data-autocheck-authenticity-token="WTG0vQrNzzz5K3z293OS9mNuK7uMB66usXfo9E7Bu2jfjpKGwhu2P7gvbxS84haytip0jzlPiZGnOAOjS+iULw==">
+                </dd>
               </dl>
               <input type="hidden" name="source" class="js-signup-source" value="form-home">
               <p class="btn btn-primary btn-large f3 btn-block" type="submit" onclick="window.location.href='../Login/index.php'">Sign up for Travel</p>
