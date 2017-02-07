@@ -58,12 +58,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						
 				</div>	
 				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-<!-- banner -->
-<!-- sign-in -->
-	<div class="sign-in">
+				<div class="sign-in">
 		<div class="container">
 			<div class="sign-in-form">
 				<div class="in-form">
@@ -103,7 +98,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-<!-- //sign-in -->
+			</div>
+		</div>
+	</div>
+<!-- banner -->
+
 <!-- footer-top -->
 	<div class="footer-top">
 		<div class="container">
