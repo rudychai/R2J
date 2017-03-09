@@ -406,122 +406,61 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<h3>Recommended Places</h3>
 			<p class="ever">To take a trivial example, which of us ever undertakes laborious physical exercise.</p>
 			<div class="main">
-                <div class="view view-seventh">
-					<a href="images/11.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/11-.jpg" />
+                <div style="padding-bottom: 40px;">
+						<img src="images/11-.jpg" style="float: left; padding-right: 15px;">
 						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-							<p style="margin-top: -20px; margin-left: 150px;"><a href="#">readmore</a></p>
+							<h2 style="float:left; ">Necessitatibus</h2>
+							<br>
+							<p style="text-align: justify;">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+							A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+							<a href="../Place Info/index.html" target="_blank"><p>readmore</p></a>
+						</div>
+                </div>
 
+                <div style="padding-bottom: 30px;">
+						<img src="images/11-.jpg" style="float: right; padding-left: 15px;">
+						<div class="mask">
+							<h2 style="float:left; ">Necessitatibus</h2>
+							<br>
+							<p style="text-align: justify;">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+							A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+							<a href="../Place Info/index.html" target="_blank"><p>readmore</p></a>
+						</div>
+                </div>
 
+                <div style="padding-bottom: 30px;">
+						<img src="images/11-.jpg" style="float: left; padding-right: 15px;">
+						<div class="mask">
+							<h2 style="float:left; ">Necessitatibus</h2>
+							<br>
+							<p style="text-align: justify;">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+							A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+							<a href="../Place Info/index.html" target="_blank"><p>readmore</p></a>
+						</div>
+                </div>
 
-						</div>
-					</a>
-                </div>
-                <div class="view view-seventh">
-                    <a href="images/12.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/12-.jpg" />
+                <div style="padding-bottom: 30px;">
+						<img src="images/11-.jpg" style="float: right; padding-left: 15px;">
 						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+							<h2 style="float:left; ">Necessitatibus</h2>
+							<br>
+							<p style="text-align: justify;">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+							A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+							<a href="../Place Info/index.html" target="_blank"><p>readmore</p></a>
 						</div>
-					</a>
                 </div>
-                <div class="view view-seventh">
-                    <a href="images/13.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/13-.jpg" />
+
+                <div style="padding-bottom: 30px;">
+						<img src="images/11-.jpg" style="float: left; padding-right: 15px;">
 						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+							<h2 style="float:left; ">Necessitatibus</h2>
+							<br>
+							<p style="text-align: justify;">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+							A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+							<a href="../Place Info/index.html" target="_blank"><p>readmore</p></a>
 						</div>
-					</a>
                 </div>
-                <div class="view view-seventh">
-                    <a href="images/14.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/14-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
-            </div>
-			<div class="main">
-                <div class="view view-seventh">
-					<a href="images/15.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/15-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
-                <div class="view view-seventh">
-                    <a href="images/16.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/16-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
-                <div class="view view-seventh">
-                    <a href="images/17.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/17-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
-                <div class="view view-seventh">
-                    <a href="images/12.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/12-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
-            </div>
-			<div class="main">
-                <div class="view view-seventh">
-					<a href="images/14.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/14-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
-                <div class="view view-seventh">
-                    <a href="images/12.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/12-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
-                <div class="view view-seventh">
-                    <a href="images/13.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/13-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
-                <div class="view view-seventh">
-                    <a href="images/11.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-						<img src="images/11-.jpg" />
-						<div class="mask">
-							<h2>Necessitatibus</h2>
-							<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-						</div>
-					</a>
-                </div>
+                               
             </div>
 		</div>
 	</div>

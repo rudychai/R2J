@@ -182,7 +182,7 @@
   <div class="container-responsive position-relative">
     <div class="clearfix gut-lg">
       <div class="float-md-left col-md-7">
-        <h1 class="alt-h1 text-shadow-dark text-white lh-condensed mb-3">How&nbsp;people build&nbsp;software</h1>
+        <h1 class="alt-h1 text-shadow-dark text-white lh-condensed mb-3">How do regular people afford to Travel the world?</h1>
         <p class="alt-lead text-shadow-dark text-white">Millions of 
 developers use GitHub to build personal projects, support their 
 businesses, and&nbsp;work together on open source technologies.</p>
