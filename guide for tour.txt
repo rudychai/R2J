@@ -1,0 +1,11 @@
+* Database pemesanan tiket apakah ada? dan boleh diminta? 
+* Gambar tour apakah ada juga supaya bisa kami buatkan sample? gambar harus kita cari sendiri supaya terlihat bagus.
+* Pembayaran tiket mau dibuat nantinya seperti gimana? cari server yang paling bagus untuk keamanan pembayaran tiket, paling bagus diamerika karena disana ada fasilitas yang bagus untuk menjaga data kita
+* Pembayaran lewat bank nanti gimana connect ke rekening supaya orang tersebut sudah bayar apa belum? nanti customer yang akan menghubungi kita
+* Apakah ada pengecekan validasi pada nomor rekening customer? tidak usa, sediakan saja fasilitas online chat atau sebagainya yang memudahkan customer menginformasikan kita bahwa mereka sudah melakukan pembayaran ke rekening
+* pembayaran kartu kredit masih belum saat ini dijalankan karena masih digolongkan susah untuk diatur pembayarannya.
+Sediakan fitur pada website :
+Daily Departure : Daily Package Tour (setiap hari tersedia paket tour), kita yang tentukan sendiri harganya
+Series booking (tgl booking dari kita yang sediakan).
+agreement pada tiap partner air lines juga perlu waktu maka dari itu sediakan yang sering digunakan orang, gunanya untuk promo tiket" dari partner tersebut
+bandingkan gta.com, dengan airasia.com, dan traveloka.com
